@@ -1,1 +1,59 @@
+:root
+{
+    --font-size: 16px;
+}
 
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: var(--font-size);
+    font-family: cambria;
+}
+
+#main-heading
+{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: calibri;
+    text-align:  center;
+    padding: 10px;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    background: #333;
+    color: white;
+}
+
+nav > div{
+    
+    padding: 10px 30px;
+    border: 0px solid black;
+    marker: 0px
+}
+
+/*
+#home
+{
+    border-left:4px solid white;
+    border-right: 4px solid white;
+}
+
+
+nav > div:hover
+{
+    background: #519DE8;
+    color: black;
+}
+*/
+
+#viewport
+{
+    display: block;
+    height: 300px;
+}
